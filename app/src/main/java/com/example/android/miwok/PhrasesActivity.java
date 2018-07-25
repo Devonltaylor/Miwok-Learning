@@ -16,16 +16,16 @@ public class PhrasesActivity extends AppCompatActivity {
         // Creates an array list of words
         ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("Where are you going?","minto wuksus", R.drawable.number_one));
-        words.add(new Word("What is your name?","tinne oyaase'ne", R.drawable.number_two));
-        words.add(new Word("My name is...","oyaaset", R.drawable.number_three));
-        words.add(new Word("How are you feeling?","michekses", R.drawable.number_four));
-        words.add(new Word("I'm feeling good.","kuchi achit", R.drawable.number_five));
-        words.add(new Word("Are you coming?","eenes'aa", R.drawable.number_six));
-        words.add(new Word("Yes, I'm coming.","hee'eenem", R.drawable.number_seven ));
-        words.add(new Word("I'm coming.","eenem", R.drawable.number_eight ));
-        words.add(new Word("Let's go.","yoowutis", R.drawable.number_nine ));
-        words.add(new Word("Come here.","enni'nem", R.drawable.number_ten));
+        words.add(new Word("Where are you going?","minto wuksus" ));
+        words.add(new Word("What is your name?","tinne oyaase'ne" ));
+        words.add(new Word("My name is...","oyaaset" ));
+        words.add(new Word("How are you feeling?","michekses" ));
+        words.add(new Word("I'm feeling good.","kuchi achit" ));
+        words.add(new Word("Are you coming?","eenes'aa" ));
+        words.add(new Word("Yes, I'm coming.","hee'eenem"));
+        words.add(new Word("I'm coming.","eenem" ));
+        words.add(new Word("Let's go.","yoowutis" ));
+        words.add(new Word("Come here.","enni'nem" ));
 
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The

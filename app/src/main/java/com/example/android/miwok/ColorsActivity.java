@@ -16,14 +16,14 @@ public class ColorsActivity extends AppCompatActivity {
         // Creates an array list of words
         ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("red","wetetti", R.drawable.number_one));
-        words.add(new Word("green","chokokki", R.drawable.number_two));
-        words.add(new Word("brown","takaakki", R.drawable.number_three));
-        words.add(new Word("gray","topoppi", R.drawable.number_four));
-        words.add(new Word("black","kululli", R.drawable.number_five));
-        words.add(new Word("white","kelelli", R.drawable.number_six));
-        words.add(new Word("dusty yellow","topiise", R.drawable.number_seven ));
-        words.add(new Word("mustard yellow","chiwiite", R.drawable.number_eight ));
+        words.add(new Word("red","wetetti", R.drawable.color_red));
+        words.add(new Word("green","chokokki", R.drawable.color_green));
+        words.add(new Word("brown","takaakki", R.drawable.color_brown));
+        words.add(new Word("gray","topoppi", R.drawable.color_gray));
+        words.add(new Word("black","kululli", R.drawable.color_black));
+        words.add(new Word("white","kelelli", R.drawable.color_white));
+        words.add(new Word("dusty yellow","topiise", R.drawable.color_dusty_yellow ));
+        words.add(new Word("mustard yellow","chiwiite", R.drawable.color_mustard_yellow ));
 
 
 
